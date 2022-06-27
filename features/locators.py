@@ -1,0 +1,13 @@
+class Locators:
+    base_url = 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login'
+    login_button = '//*[contains(text(),"Bank Manager Login")]'
+    add_customer = '//button[@ng-class="btnClass1"]'
+    first_name = '//input[@ng-model="fName"]'
+    last_name = '//input[@placeholder="Last Name"]'
+    post_code = '//input[@placeholder="Post Code"]'
+    add_customer_submit = '//button[@type="submit"]'
+    customers = '//button[@ng-class="btnClass3"]'
+    search_customer = '//input[@type="text"]'
+    delete_customer = '//td[contains(text(),"Delete Customer")]'
+    customers_list = '//table[@class="table table-bordered table-striped"]'
+    cust_page = '//div[@class="marTop ng-scope"]'
